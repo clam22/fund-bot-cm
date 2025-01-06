@@ -1,0 +1,51 @@
+{
+  "name": "fund-bot-cm",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ai-sdk/google": "^0.0.39",
+    "@ai-sdk/mistral": "^0.0.34",
+    "@ai-sdk/openai": "^0.0.40",
+    "@heroicons/react": "^2.1.5",
+    "@pinecone-database/pinecone": "^3.0.0",
+    "@radix-ui/react-icons": "^1.3.0",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@react-icons/all-files": "^4.1.0",
+    "ai": "^3.3.0",
+    "aws-sdk": "^2.1687.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "dotenv": "^16.4.5",
+    "extendable-media-recorder": "^9.2.11",
+    "lodash": "^4.17.21",
+    "lucide-react": "^0.441.0",
+    "next": "^14.2.5",
+    "openai": "^4.63.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.3.0",
+    "react-markdown": "^9.0.1",
+    "tailwind-merge": "^2.5.2",
+    "tailwindcss-animate": "^1.0.7",
+    "uuid": "^10.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.6",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5"
+  }
+}
